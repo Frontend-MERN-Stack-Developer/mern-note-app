@@ -1,0 +1,26 @@
+.notes-card {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #fced99;
+  padding: 1rem;
+  color: #27272a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.content {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.d-flex a:first-child{
+  margin-right: 10px;
+}
